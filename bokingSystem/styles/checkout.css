@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-items: center;
+  background-color: black;
+}
+#navbar {
+  width: 98%;
+  background-color: bisque;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+#user-detail {
+  display: grid;
+  width: 300px;
+  padding: 20px;
+  background-color: aquamarine;
+  border: 1px solid red;
+  gap: 20px;
+  align-items: center;
+}
+#movie {
+  width: 98%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: cornsilk;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(7, 120, 7);
+  color: white;
+}

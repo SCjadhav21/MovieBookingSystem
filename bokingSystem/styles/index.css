@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-items: center;
+}
+#navbar {
+  width: 98%;
+  background-color: bisque;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+input {
+  text-align: center;
+}
+#add-money {
+  display: grid;
+  width: 300px;
+  padding: 20px;
+  background-color: aquamarine;
+  border: 1px solid red;
+  gap: 20px;
+  align-items: center;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(90, 7, 120);
+  color: white;
+}
